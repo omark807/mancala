@@ -7,13 +7,43 @@ body {
     background-color: darkcyan;
 }
 
-.play {
+.start-buttons {
+    text-align: center;
+}
+
+.button {
+    vertical-align: top;
+    margin: 0 10px;
+    text-align: left;
+    display: inline-block;
+}
+
+#one-player {
+    float: left;
     height: 50px;
     width: 100px;
     background-color: darkgoldenrod;
-    margin: auto;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    /* margin: auto; */
 }
 
-.play p {
+#two-player {
+    float: right;
+    height: 50px;
+    width: 100px;
+    background-color: silver;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /* margin: auto; */
+}
+
+.one-player p {
+    text-align: center;
+}
+
+.two-player p {
     text-align: center;
 }
